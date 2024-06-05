@@ -1,0 +1,28 @@
+<mvc:View controllerName="student16.com.sap.training.ux402.fullscreen.ux402fullscreen.controller.NotFound"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+  <Page id="messagePage1" 
+ title="{i18n>notFoundMessageTitle}"
+ showNavButton="true"
+ navButtonPress="onNavBack">
+ <content>
+      <VBox
+        alignItems="Center"
+        justifyContent="Center"
+        width="100%"
+        height="100%">
+        <Image
+          src="https://via.placeholder.com/200?text=Error"
+          width="auto"
+          height="200px"
+          alt="Error image"/>
+        <Text
+          text="{i18n>notFoundMessageText}"
+          textAlign="Center"
+          wrapping="true"/>
+      </VBox>
+    </content>
+ </Page>
+</mvc:View>
+
+ <!-- description="{i18n>notFoundMessageDescrition}" -->
